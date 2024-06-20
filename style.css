@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.monolito {
+    width: 150px;
+    height: 400px;
+    background-color: #e0c6a5;
+    border: 5px solid #3e3e3e;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabeza {
+    width: 80%;
+    height: 20%;
+    background-color: #e0c6a5;
+    border: 5px solid #3e3e3e;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+}
+
+.cuerpo {
+    width: 90%;
+    height: 50%;
+    background-color: #e0c6a5;
+    border: 5px solid #3e3e3e;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+}
+
+.ojoizq{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    margin: 0;
+    outline: 5px solid #7a4f34;
+    background-color: #f2d3b6;
+    border-radius: 20%;    
+    top: 20px;
+    left: 20px;
+}
+.ojoder{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    margin: 0;
+    outline: 5px solid #7a4f34;
+    background-color: #f2d3b6;
+    border-radius: 20%;    
+    top: 20px;
+    right: 20px;
+}
+.nariz{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    margin: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #7a4f34;
+    top: 0px;
+    left: calc(45% - 5px);
+}
+.boca {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    margin: 0;
+    outline: 5px solid #7a4f34;
+    top: 80px;
+    left: calc(50% - 20px);
+}
+
+.botellas {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.botella-izquierda, .botella-derecha {
+    width: 20%;
+    height: 60%;
+    background-color: #c4a484;
+    border: 2px solid #3e3e3e;
+}
+
+.piernas {
+    width: 80%;
+    height: 30%;
+    background-color: #e0c6a5;
+    border: 5px solid #3e3e3e;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+}
