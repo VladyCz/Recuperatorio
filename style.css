@@ -8,8 +8,8 @@ body {
 }
 
 .monolito {
-    width: 150px;
-    height: 400px;
+    width: 160px;
+    height: 500px;
     background-color: #e0c6a5;
     border: 5px solid #3e3e3e;
     border-radius: 10px;
@@ -21,25 +21,12 @@ body {
 
 .cabeza {
     width: 80%;
-    height: 20%;
+    height: 100%;
     background-color: #e0c6a5;
     border: 5px solid #3e3e3e;
     border-radius: 10px 10px 0 0;
     position: absolute;
-    top: 0;
-}
-
-.cuerpo {
-    width: 90%;
-    height: 50%;
-    background-color: #e0c6a5;
-    border: 5px solid #3e3e3e;
-    border-top: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 20%;
+    top: 5px;
 }
 
 .ojoizq{
@@ -50,8 +37,8 @@ body {
     outline: 5px solid #7a4f34;
     background-color: #f2d3b6;
     border-radius: 20%;    
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 10px;
 }
 .ojoder{
     position: absolute;
@@ -61,8 +48,8 @@ body {
     outline: 5px solid #7a4f34;
     background-color: #f2d3b6;
     border-radius: 20%;    
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 10px;
 }
 .nariz{
     position: absolute;
@@ -83,6 +70,19 @@ body {
     outline: 5px solid #7a4f34;
     top: 80px;
     left: calc(50% - 20px);
+}
+
+.cuerpo {
+    width: 90%;
+    height: 50%;
+    background-color: #e0c6a5;
+    border: 5px solid #3e3e3e;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
 }
 
 .botellas {
